@@ -25,7 +25,7 @@ https://code4fukui.github.io/Base50/
 ## usage
 
 ```js
-import { Base50 } from "https://code4fukui.github.io/Base58/Base50.js";
+import { Base50 } from "https://code4fukui.github.io/Base50/Base50.js";
 
 console.log(Base50.encode(new Uint8Array([1, 2, 0xfe, 0xff])));
 console.log(Base50.decode("えゆつのふ"));
