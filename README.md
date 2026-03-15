@@ -1,4 +1,7 @@
 # Base50
+
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Base50 is a library for encoding binary data using a set of 50 Japanese hiragana characters.
 
 ## Demo
