@@ -1,14 +1,14 @@
 # Base50
-Base50 is a library for encoding binary data using a set of 50 Japanese hiragana characters.
+Base50は、日本語の平仮名50文字を使って二進データをエンコードするためのライブラリです。
 
-## Demo
+## デモ
 [https://code4fukui.github.io/Base50/](https://code4fukui.github.io/Base50/)
 
-## Features
-- Base50 library (but the base number is 46)
-- ES module for web and [Deno](https://deno.land)
+## 機能
+- Base50ライブラリ（ただし、基数は46）
+- ウェブやDenoのためのESモジュール
 
-## Usage
+## 使い方
 ```js
 import { Base50 } from "https://code4fukui.github.io/Base50/Base50.js";
 
@@ -16,5 +16,5 @@ console.log(Base50.encode(new Uint8Array([1, 2, 0xfe, 0xff])));
 console.log(Base50.decode("えゆつのふ"));
 ```
 
-## License
+## ライセンス
 MIT
