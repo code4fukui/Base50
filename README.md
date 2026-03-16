@@ -20,4 +20,4 @@ console.log(Base50.decode("えゆつのふ"));
 ```
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).
